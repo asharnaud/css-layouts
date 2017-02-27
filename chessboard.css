@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+table {
+  background-color: #FFD191;
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+td {
+    height: 96px;
+    width: 96px;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+  background-color: #A36105;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+  background-color: #A36105;
+}
