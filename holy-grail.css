@@ -1,0 +1,37 @@
+.holy-grail-layout {
+    display: flex;
+    flex-direction: column;
+    border: 6px solid black;
+}
+
+.holy-grail-body {
+  border-bottom: 6px solid black;
+  border-top: 6px solid black;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.menu-column {
+  border-right: 6px solid black;
+  padding: 0 10px 0 10px;
+}
+
+.ad-column {
+  border-left: 6px solid black;
+  padding: 0 10px 0 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+}
