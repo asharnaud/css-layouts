@@ -1,0 +1,139 @@
+body {
+  border: 10px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height:400px;
+  width: 800px;
+
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  width:20%;
+  margin-right: -88px;
+}
+
+.one {
+  width: 10%;
+  height: 8%;
+}
+
+.two {
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+  width: 37%;
+  height: 21%;
+}
+
+.three {
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  width:37%;
+  height:30%;
+}
+
+.four {
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  width:37%;
+  height:30%;
+}
+
+.second-col {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0;
+}
+
+.six {
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  height: 14%;
+  margin: 0 0 0 16px;
+}
+
+.seven {
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+  width: 100%;
+  height: 69%;
+}
+
+.wrapped-col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eight {
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 50%;
+  height: 79px;
+}
+
+.nine {
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 50%;
+  height: 79px;
+}
+
+.ten {
+  border-right: 4px solid black;
+  width: 50%;
+  height: 20px;
+}
+
+.eleven {
+  width: 48%;
+  height: 50px;
+}
+
+.twelve {
+  width: 48%;
+  height: 50px;
+}
+
+.thirteen {
+  width: 48%;
+  height: 50px;
+}
+
+.fourteen {
+  width: 48%;
+  height: 50px;
+}
+
+.fifteen {
+  width: 48%;
+  height: 50px;
+}
+
+.third-col {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.fourth-col {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.fifth-col {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.sixth-col {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
