@@ -9,131 +9,340 @@ body {
 }
 
 .left-col {
+  border-right: 4px solid black;
   display: flex;
   flex-direction: column;
-  width:20%;
-  margin-right: -88px;
+  flex: 1;
 }
 
 .one {
-  width: 10%;
-  height: 8%;
+  border: none;
+  border-bottom: 4px solid black;
+  flex: 1;
 }
 
 .two {
   border-bottom: 4px solid black;
-  border-right: 4px solid black;
-  border-top: 4px solid black;
-  width: 37%;
-  height: 21%;
+  flex: 2;
 }
 
 .three {
   border-bottom: 4px solid black;
-  border-right: 4px solid black;
-  width:37%;
-  height:30%;
+  flex: 3;
 }
 
 .four {
+  background-color: yellow;
   border-bottom: 4px solid black;
-  border-right: 4px solid black;
-  width:37%;
-  height:30%;
+  flex: 3;
+}
+
+.five {
+  flex: 1;
 }
 
 .second-col {
+  border-right: 4px solid black;
   display: flex;
   flex-direction: column;
-  width: 20%;
-  margin: 0;
+  flex: 4;
 }
 
 .six {
-  border-left: 4px solid black;
-  border-right: 4px solid black;
-  height: 14%;
-  margin: 0 0 0 16px;
+  border: none;
+  border-bottom: 4px solid black;
+  flex: .5;
 }
 
 .seven {
-  border-right: 4px solid black;
+  background-color: red;
   border-bottom: 4px solid black;
-  border-top: 4px solid black;
-  width: 100%;
-  height: 69%;
+  flex: 2;
 }
 
-.wrapped-col {
+.wrapped-col-one {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .eight {
-  border-right: 4px solid black;
+  background-color: black;
   border-bottom: 4px solid black;
-  width: 50%;
-  height: 79px;
+  border-right: 4px solid black;
+  flex: 2;
 }
 
 .nine {
-  border-right: 4px solid black;
   border-bottom: 4px solid black;
-  width: 50%;
-  height: 79px;
+  flex: 1;
 }
 
 .ten {
-  border-right: 4px solid black;
-  width: 50%;
-  height: 20px;
+  flex: 1;
 }
 
 .eleven {
-  width: 48%;
-  height: 50px;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  flex: 1;
 }
 
 .twelve {
-  width: 48%;
-  height: 50px;
+  background-color: black;
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
 }
 
 .thirteen {
-  width: 48%;
-  height: 50px;
+  border-right: 4px solid black;
+  flex: 1;
 }
 
 .fourteen {
-  width: 48%;
-  height: 50px;
+  background-color: yellow;
+  border-right: 4px solid black;
+  flex:1;
 }
 
-.fifteen {
-  width: 48%;
-  height: 50px;
+.row3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-inside-row {
+  display: flex;
+  flex-direction: column;
 }
 
 .third-col {
+  border-right: 4px solid black;
   display: flex;
   flex-direction: column;
-  width: 20%;
+  flex: 2;
+}
+
+.sixteen {
+  background-color: yellow;
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.seventeen {
+  background-color: yellow;
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.row4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.eightteen {
+  border-right: 4px solid black;
+  flex: 1;
+}
+
+.nineteen {
+  flex: 1;
+}
+
+.twenty {
+  border-top:4px solid black;
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.twentyone {
+  background-color: blue;
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.twentytwo {
+  background-color: red;
+  flex: 1;
 }
 
 .fourth-col {
+  border-right: 4px solid black;
   display: flex;
   flex-direction: column;
-  width: 20%;
+  flex: 2;
+}
+
+.twentythree {
+  background-color: blue;
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.twentyfour {
+  background-color: red;
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.twentyfive {
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.twentysix {
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  flex: 1;
+}
+
+.twentyseven {
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.row5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.twentyeight {
+  background-color: yellow;
+  border-bottom: 4px solid black;
+  flex:1;
+}
+
+.twentynine {
+  border-right: 4px solid black;
+  flex: 1;
+}
+
+.thirty {
+  background-color: black;
+  flex: 1;
+}
+
+.row6 {
+  display: flex;
+  flex-direction: row;
 }
 
 .fifth-col {
+  border-right: 4px solid black;
   display: flex;
   flex-direction: column;
-  width: 20%;
+  flex: 4;
+}
+
+.row7 {
+  display:flex;
+  flex-direction: row;
+}
+
+.thirtyone {
+  background-color: yellow;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.thirtytwo {
+  background-color: black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.thirtythree {
+  border-bottom: 4px solid black;
+  flex: 2;
+}
+
+.row8 {
+  display: flex;
+  flex-direction: row;
+}
+
+.thirtyfour {
+  background-color: yellow;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  flex: 1;
+}
+
+.thirtyfive {
+  background-color: black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  flex: 2;
+}
+
+.thirtysix {
+  border-bottom: 4px solid black;
+  flex:1;
+}
+
+.thirtyseven {
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.thirtyeight {
+  border-bottom: 4px solid black;
+  flex:2;
+}
+
+.thirtynine {
+  background-color: black;
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.row9 {
+  display: flex;
+  flex-direction: row;
+}
+
+.forty {
+  background-color: blue;
+  border-bottom: 4px solid black;
+  flex: 2;
+}
+
+.fortyone {
+  flex: 1;
 }
 
 .sixth-col {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  flex: 1;
+}
+
+.fortytwo {
+  border-bottom: 4px solid black;
+  flex: 1;
+}
+
+.fortythree {
+  background-color: yellow;
+  border-bottom: 4px solid black;
+  flex: 2;
+}
+
+.fortyfour {
+  border-bottom: 4px solid black;
+  flex: 3;
+}
+
+.fortyfive {
+  border-bottom: 4px solid black;
+  flex: 3;
+}
+
+.fortysix {
+  flex: 1;
 }
