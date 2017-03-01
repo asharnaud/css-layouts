@@ -9,7 +9,6 @@ body {
 }
 
 .left-col {
-  border-right: 4px solid black;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -22,18 +21,22 @@ body {
 }
 
 .two {
+  border-right: 4px solid black;
   border-bottom: 4px solid black;
   flex: 2;
 }
 
 .three {
   border-bottom: 4px solid black;
+  border-right: 4px solid black;
   flex: 3;
 }
 
 .four {
+  border-right: 4px solid black;
   background-color: yellow;
   border-bottom: 4px solid black;
+  border-right: 4px solid black;
   flex: 3;
 }
 
@@ -50,14 +53,16 @@ body {
 
 .six {
   border: none;
-  border-bottom: 4px solid black;
-  flex: 1;
+  border-left: 4px solid black;
+  height: 50%;
+  margin-left: 20px;
 }
 
 .seven {
+  border-top: 4px solid black;
   background-color: red;
   border-bottom: 4px solid black;
-  flex: 2;
+  height: 150%;
 }
 
 .wrapped-col-one {
@@ -68,30 +73,34 @@ body {
 
 .eight {
   background-color: black;
-  border-bottom: 4px solid black;
-  border-right: 4px solid black;
-  flex: 2;
+  height: 95px;
+  width: 50%;
 }
 
 .nine {
   border-bottom: 4px solid black;
-  flex: 1;
+  height: 150px;
+  width: 50%;
 }
 
 .ten {
-  flex: 1;
+  height: 150px;
+  width: 50%;
 }
 
 .eleven {
   border-bottom: 4px solid black;
   border-right: 4px solid black;
-  flex: 1;
+  height: 120px;
+  width: 50%;
 }
 
 .twelve {
   background-color: black;
   border-bottom: 4px solid black;
-  flex: 1;
+  height: 80px;
+  margin-top: 50px;
+  width: 50%;
 }
 
 .row2 {
@@ -100,14 +109,21 @@ body {
 }
 
 .thirteen {
-  border-right: 4px solid black;
-  flex: 1;
+  margin-top: 50px;
+  height: 20px;
+  width: 120px;
 }
 
 .fourteen {
   background-color: yellow;
+  border-left: 4px solid black;
   border-right: 4px solid black;
-  flex:1;
+  height: 70px;
+  width: 27%;
+}
+
+.fifteen {
+  width: 23%;
 }
 
 .row3 {
@@ -130,13 +146,13 @@ body {
 .sixteen {
   background-color: yellow;
   border-bottom: 4px solid black;
-  flex: 1;
+  height: 9.5%;
 }
 
 .seventeen {
   background-color: yellow;
   border-bottom: 4px solid black;
-  flex: 1;
+  height: 15%;
 }
 
 .row4 {
@@ -147,17 +163,20 @@ body {
 
 .eightteen {
   border-right: 4px solid black;
-  flex: 1;
+  flex: 1
+  height: 77px;
+  margin: 0 0 0 35px;
 }
 
 .nineteen {
   flex: 1;
+  height: 77px;
 }
 
 .twenty {
   border-top:4px solid black;
   border-bottom: 4px solid black;
-  flex: 1;
+  height: 9.5%;
 }
 
 .twentyone {
@@ -181,29 +200,31 @@ body {
 .twentythree {
   background-color: blue;
   border-bottom: 4px solid black;
-  flex: 1;
+  height: 17.25%;
 }
 
 .twentyfour {
   background-color: red;
   border-bottom: 4px solid black;
-  flex: 1;
+  height: 18%;
 }
 
 .twentyfive {
   border-bottom: 4px solid black;
-  flex: 1;
+  height: 9.5%;
 }
 
 .twentysix {
   border-bottom: 4px solid black;
   border-right: 4px solid black;
   flex: 1;
+  height: 77px;
 }
 
 .twentyseven {
   border-bottom: 4px solid black;
   flex: 1;
+  height: 77px;
 }
 
 .row5 {
@@ -220,11 +241,13 @@ body {
 .twentynine {
   border-right: 4px solid black;
   flex: 1;
+  height: 35px;
 }
 
 .thirty {
   background-color: black;
   flex: 1;
+  height: 35px;
 }
 
 .row6 {
@@ -233,7 +256,6 @@ body {
 }
 
 .fifth-col {
-  border-right: 4px solid black;
   display: flex;
   flex-direction: column;
   flex: 4;
@@ -246,14 +268,17 @@ body {
 
 .thirtyone {
   background-color: yellow;
-  border-right: 4px solid black;
   border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  height: 53px;
+  width: 18%;
 }
 
 .thirtytwo {
   background-color: black;
   border-right: 4px solid black;
-  border-bottom: 4px solid black;
+  height: 53px;
+  width: 18%;
 }
 
 .thirtythree {
@@ -270,29 +295,31 @@ body {
   background-color: yellow;
   border-bottom: 4px solid black;
   border-right: 4px solid black;
-  flex: 1;
+  height:47px;
+  width: 100px;
+
 }
 
 .thirtyfive {
   background-color: black;
-  border-right: 4px solid black;
   border-bottom: 4px solid black;
-  flex: 2;
+  border-right: 4px solid black;
+  height: 47px;
+  width: 100px;
 }
 
-.thirtysix {
-  border-bottom: 4px solid black;
-  flex:1;
-}
+
 
 .thirtyseven {
   border-bottom: 4px solid black;
-  flex: 1;
+  height:47px;
+  width: 100px;
 }
 
 .thirtyeight {
   border-bottom: 4px solid black;
-  flex:2;
+  height:47px;
+  width: 100px;
 }
 
 .thirtynine {
@@ -309,11 +336,13 @@ body {
 .forty {
   background-color: blue;
   border-bottom: 4px solid black;
-  flex: 2;
+  height: 225px;
 }
 
 .fortyone {
-  flex: 1;
+  border-right: 4px solid black;
+  height: 51px;
+  margin-right: 20px;
 }
 
 .sixth-col {
@@ -330,19 +359,23 @@ body {
 .fortythree {
   background-color: yellow;
   border-bottom: 4px solid black;
+  border-left: 4px solid black;
   flex: 2;
 }
 
 .fortyfour {
   border-bottom: 4px solid black;
+  border-left: 4px solid black;
   flex: 3;
 }
 
 .fortyfive {
   border-bottom: 4px solid black;
+  border-left: 4px solid black;
   flex: 3;
 }
 
 .fortysix {
   flex: 1;
 }
+
