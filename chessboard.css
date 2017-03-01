@@ -6,19 +6,19 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 400px;
   height: 400px;
   margin: 200px 0 0 400px;
+  width: 400px;
 }
 
 .brown {
-  width: 50px;
-  height: 50px;
   background-color: #FFD191;
+  height: 50px;
+  width: 50px;
 }
 
 .biege {
-  width: 50px;
-  height: 50px;
   background-color: #A36105;
+  height: 50px;
+  width: 50px;
 }

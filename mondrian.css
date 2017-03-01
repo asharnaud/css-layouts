@@ -51,7 +51,7 @@ body {
 .six {
   border: none;
   border-bottom: 4px solid black;
-  flex: .5;
+  flex: 1;
 }
 
 .seven {
