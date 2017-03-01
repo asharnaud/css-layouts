@@ -13,25 +13,30 @@
 }
 
 .menu-column {
+  background-color: #C598D6;
   border-right: 6px solid black;
   padding: 0 10px 0 10px;
 }
 
 .ad-column {
+  background-color: #C598D6;
   border-left: 6px solid black;
   padding: 0 10px 0 10px;
 }
 
 .content {
+  background-color: pink;
   text-align: center;
 }
 
 header {
+  background-color: #24B3E3;
   text-align: center;
   padding: 5px;
 }
 
 footer {
+  background-color: #24B3E3;
   text-align: center;
   padding: 5px;
 }
