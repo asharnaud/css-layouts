@@ -81,6 +81,7 @@ body {
 .nine {
   border-bottom: 4px solid black;
   height: 350px;
+  margin-top: 40px;
   width: 105%;
 }
 
@@ -165,7 +166,7 @@ body {
   border-right: 4px solid black;
   flex: 1
   height: 77px;
-  margin: 0 0 0 35px;
+  margin: 0 0 0 52px;
 }
 
 .nineteen {
